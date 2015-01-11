@@ -19,7 +19,7 @@ if( !file.exists(archiveFile) )
 
 if (!file.exists(dataFile))
 {
-		unzip(archiveFile);
+		unzip(archiveFile, exdir='workdir');
 }
 
 
